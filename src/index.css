@@ -93,22 +93,23 @@ List
   transition: all 0.3s linear;
   border-radius: 0.25rem;
 }
-.filter-btn:hover {
+.filter-btn:hover, .active {
   background: #6F8A81;
   color: #F1F5F2;
 }
-.section-center {
-  width: 90vw;
+.section-container {
+  width: 40vw;
   margin: 0 auto;
   max-width: 1170px;
   display: grid;
-  gap: 3rem 2rem;
+  gap: 2rem 2rem;
+  grid-template-columns: repeat(2, 1fr);
   justify-items: center;
 }
 .plant-item {
   display: grid;
   gap: 1rem 2rem;
-  max-width: 25rem;
+  width: 14rem;
 }
 .photo {
   object-fit: cover;
@@ -119,9 +120,7 @@ List
   display: block;
 }
 .item-info header {
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 0.5px dotted #B0C8B7;
+  border-bottom: 1px dotted #B0C8B7;
 }
 .item-info h4 {
   margin-bottom: 0.5rem;
@@ -129,4 +128,15 @@ List
 .item-text {
   margin-bottom: 0;
   padding-top: 1rem;
+}
+.action {
+  display: flex;
+  justify-content: flex-end;
+}
+.item-btn {
+  background: transparent;
+  border-color: transparent;
+  color: #FF9A76;
+  font-size: 20px;
+  margin: 10px;
 }

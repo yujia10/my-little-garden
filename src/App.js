@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import List from './List';
 import Categories from './Categories';
-import items from './data';
+import plants from './data';
 
 
 function App() {
-  const [plantItems, setPlantItems] = useState(items)
+  const [plantItems, setPlantItems] = useState(plants)
   return (
     <main>
       <section className='plant-section'>
@@ -14,7 +14,7 @@ function App() {
           <div className='underline'></div>
         </div>
         <Categories />
-        <List item={plantItems}/>
+        <List items={plantItems}/>
       </section>
     </main>
 );
