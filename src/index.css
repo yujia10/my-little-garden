@@ -93,7 +93,7 @@ List
   transition: all 0.3s linear;
   border-radius: 0.25rem;
 }
-.filter-btn:hover, .active {
+.filter-btn:hover{
   background: #6F8A81;
   color: #F1F5F2;
 }
