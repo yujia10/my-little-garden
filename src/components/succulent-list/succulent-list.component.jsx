@@ -1,9 +1,7 @@
-import React from 'react';
-import { MdOutlineWaterDrop, MdWaterDrop, MdOutlineEventNote } from 'react-icons/md'
 
+import './succulent-list.style.scss'
 
-
-const List = ({items})=>{
+function SucculentList({items}) {
   return (
     <div className='section-container'>
       {items.map((item)=>{
@@ -15,10 +13,6 @@ const List = ({items})=>{
               <header>
                 <h4>{title}</h4>
               </header>
-              <p className='action'>
-                <button className='item-btn'><MdOutlineWaterDrop /></button>
-                <button className='item-btn'><MdOutlineEventNote /></button>
-              </p>
             </div>
           </article>
         )
@@ -27,4 +21,4 @@ const List = ({items})=>{
   )
 }
 
-export default List;
+export default SucculentList

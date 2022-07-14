@@ -1,8 +1,5 @@
-/*
-===============
-global
-===============
-*/
+@import url('https://fonts.googleapis.com/css2?family=Charmonman&family=Montserrat:wght@300;400;600;700&family=Open+Sans:wght@300&display=swap');
+
 *,
 ::after,
 ::before {
@@ -10,10 +7,18 @@ global
   padding: 0;
   box-sizing: border-box;
 }
+:root {
+  --color-bg:#f1f5f2;
+  --color-primary:#6f8a81;
+  --color-secondary:#b0c8b7;
+  --color-cta:#ff9a76;
+  --color-cta-variant:#f0b29b;
+  --transition: all 400ms ease;
+}
 body {
-  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-  background: #F1F5F2;
-  color: #6F8A81;
+  font-family: 'Montserrat', sans-serif;
+  background: var(--color-bg);
+  color: var(--color-primary);
   line-height: 1.5;
   font-size: 0.875rem;
 }
@@ -46,97 +51,4 @@ h4 {
 }
 p {
   margin-bottom: 1.25rem;
-}
-
-
-.plant-section {
-  width: 90vw;
-  margin: 0 auto;
-  max-width: 1170px;
-}
-
-/*
-===============
-List
-===============
-*/
-
-.menu {
-  padding: 5rem 0;
-}
-.title {
-  text-align: center;
-  margin-bottom: 2rem;
-}
-.underline {
-  width: 5rem;
-  height: 0.25rem;
-  background: #B0C8B7;
-  margin-left: auto;
-  margin-right: auto;
-}
-.btn-container {
-  margin-bottom: 4rem;
-  display: flex;
-  justify-content: center;
-}
-.filter-btn {
-  background: transparent;
-  border-color: transparent;
-  font-size: 1rem;
-  text-transform: capitalize;
-  margin: 0 0.5rem;
-  letter-spacing: 1px;
-  padding: 0.375rem 0.75rem;
-  color: #6F8A81;
-  cursor: pointer;
-  transition: all 0.3s linear;
-  border-radius: 0.25rem;
-}
-.filter-btn:hover{
-  background: #6F8A81;
-  color: #F1F5F2;
-}
-.section-container {
-  width: 40vw;
-  margin: 0 auto;
-  max-width: 1170px;
-  display: grid;
-  gap: 2rem 2rem;
-  grid-template-columns: repeat(2, 1fr);
-  justify-items: center;
-}
-.plant-item {
-  display: grid;
-  gap: 1rem 2rem;
-  width: 14rem;
-}
-.photo {
-  object-fit: cover;
-  height: 200px;
-  width: 100%;
-  border: 0.25rem solid #6F8A81;
-  border-radius: 4px;
-  display: block;
-}
-.item-info header {
-  border-bottom: 1px dotted #B0C8B7;
-}
-.item-info h4 {
-  margin-bottom: 0.5rem;
-}
-.item-text {
-  margin-bottom: 0;
-  padding-top: 1rem;
-}
-.action {
-  display: flex;
-  justify-content: flex-end;
-}
-.item-btn {
-  background: transparent;
-  border-color: transparent;
-  color: #FF9A76;
-  font-size: 20px;
-  margin: 10px;
 }
