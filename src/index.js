@@ -1,14 +1,22 @@
-import React from 'react';
-import {createRoot} from 'react-dom/client';
+import React from "react";
+import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
-import './index.css';
-import App from './App';
 
+import { ShopSucculentsProvider } from "./contexts/shop-succulents.context";
+import { CartProvider } from "./contexts/cart.context";
 
-const root = createRoot(document.getElementById('root'));
-root.render(<React.StrictMode>
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>
+import "./index.scss";
+import App from "./App";
 
-</React.StrictMode>);
+const root = createRoot(document.getElementById("root"));
+root.render(
+  <React.StrictMode>
+    <BrowserRouter>
+      <ShopSucculentsProvider>
+        <CartProvider>
+          <App />
+        </CartProvider>
+      </ShopSucculentsProvider>
+    </BrowserRouter>
+  </React.StrictMode>
+);

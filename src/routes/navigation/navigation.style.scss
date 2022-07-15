@@ -1,13 +1,14 @@
 nav {
   height:4rem;
   background: var(--color-primary);
-  box-shadow: var(--color-primary);
+  box-shadow: var(--color-secondary);
 }
 .nav-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
+  padding-bottom: 0;
 
   .nav-toggle {
     font-size: 1.5rem;
@@ -54,11 +55,10 @@ nav {
 .links-container {
   height: 0;
   overflow: hidden;
+  background: var(--color-primary);
   transition: var(--transition);
 }
-// .show-container {
-//   height: 10rem;
-// }
+
 
 @media screen and (min-width: 800px) {
   .nav-center {
@@ -67,7 +67,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 0.5rem;
 
     .nav-header {
       padding: 0;
@@ -87,6 +87,7 @@ nav {
       .nav-link {
         padding: 0;
         margin: 0 1rem;
+        font-weight: 500;
         &:hover {
           color: var(--color-cta-variant);
         }

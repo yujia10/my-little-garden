@@ -5,6 +5,7 @@ import { TbPlant2 } from "react-icons/tb";
 import { FaBars } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
+import {AiFillFacebook} from "react-icons/ai"
 
 import './navigation.style.scss'
 
@@ -63,6 +64,9 @@ function Navigation() {
           </a>
           <a href="#">
             <AiFillInstagram />
+          </a>
+          <a href="#">
+            <AiFillFacebook />
           </a>
         </div>
       </div>

@@ -2,7 +2,7 @@ import {useState} from 'react'
 
 import SucculentList from '../../components/succulent-list/succulent-list.component'
 import Categories from '../../components/categories/categories.component'
-import plants from '../../data'
+import plants from '../../assets/succulents-data'
 
 import './succulents.style.scss'
 
