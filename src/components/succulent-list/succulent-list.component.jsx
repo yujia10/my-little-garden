@@ -3,7 +3,7 @@ import './succulent-list.style.scss'
 
 function SucculentList({items}) {
   return (
-    <div className='section-container'>
+    <div className='succulents-container'>
       {items.map((item)=>{
         return <SucculentItem key={item.id} item={item}/>
       })}

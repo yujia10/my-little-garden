@@ -20,3 +20,14 @@
   margin-bottom: 0;
   padding-top: 1rem;
 }
+
+@media screen and (max-width: 640px) {
+
+  .plant-item {
+    width: 10rem;
+  }
+
+  .photo {
+  height: 150px;
+  }
+}

@@ -1,12 +1,21 @@
-@media screen and (max-width: 640px) {
-  .section-container{
-  width: 70vw;
-  grid-template-columns: 1fr;
+.shop-container {
+  width: 50vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: grid;
+  gap: 4rem 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+}
+
+@media screen and (max-width:640px) {
+  .shop-container{
+    width: 70vw;
+    grid-template-columns: 1fr;
   }
 }
 
 //header bar
-
 .cart-bar {
   height:4rem;
   background: var(--color-secondary);

@@ -1,20 +1,38 @@
 const shopData = [
   {
     id:1,
-    title:"ECHEVERIA 'CRYSTAL ROSE'",
-    img:'./images/item-1.jpg',
+    title:"Ellen leaf cutting",
+    img:'./images/shop-1.jpg',
     price: 12
   },
   {
     id:2,
-    title:"ECHEVERIA 'ICE GREEN'",
-    img:'./images/item-2.jpg',
+    title:"Graptopetalum paraguayense leaf cutting",
+    img:'./images/shop-2.jpg',
     price: 24
   },
   {
     id:3,
-    title:"ECHEVERIA 'CONCH GIRL'",
-    img:'./images/item-3.jpg',
+    title:"Redberry cutting",
+    img:'./images/shop-3.jpg',
+    price: 28
+  },
+  {
+    id:4,
+    title:"Titubans cutting",
+    img:'./images/shop-4.jpg',
+    price: 28
+  },
+  {
+    id:5,
+    title:"Rogerisii variegata cutting",
+    img:'./images/shop-5.jpg',
+    price: 28
+  },
+  {
+    id:6,
+    title:"Margaret cutting",
+    img:'./images/shop-6.jpg',
     price: 28
   },
 ];

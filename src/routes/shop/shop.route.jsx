@@ -24,7 +24,7 @@ function Shop() {
           <h1>Shop All Available</h1>
           <div className="underline"></div>
         </div>
-        <div className="section-container">
+        <div className="shop-container">
           {succulentsForShop.map((succulent) => {
             return <ShopCard key={succulent.id} succulent={succulent} />;
           })}
