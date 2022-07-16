@@ -11,7 +11,7 @@ function Checkout() {
   return (
     <main>
       <div className="checkout-container">
-        <div className="title">
+        <div className="page-title">
           <h1>Checkout</h1>
           <div className="underline"></div>
         </div>

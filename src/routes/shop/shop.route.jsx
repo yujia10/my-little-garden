@@ -20,7 +20,7 @@ function Shop() {
         {isCartOpen && <CartDropdown />}
       </div>
       <main>
-        <div className="title">
+        <div className="page-title">
           <h1>Shop All Available</h1>
           <div className="underline"></div>
         </div>
