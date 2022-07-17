@@ -69,7 +69,7 @@ const plants = [
     id:11,
     title:"ECHEVERIA 'NANA MINI HOOK'",
     category:"mature plants",
-    img:'./images/item-11.JPG',
+    img:'./images/item-11.jpg',
     info:'Echeveria nana mini hook has attractive pink tips. When stressed it has pretty pink hue on the back of the leaves. It is quiet prolific and will form a (sometimes quiet impressive) clump over time.'
   },
   {
