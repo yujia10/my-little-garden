@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/my-little-garden/static/css/main.526d491a.css",
-    "main.js": "/my-little-garden/static/js/main.9f3f9230.js",
+    "main.js": "/my-little-garden/static/js/main.0f54caaf.js",
     "static/media/backgroundv.jpg": "/my-little-garden/static/media/backgroundv.414de0efa88daf748826.jpg",
     "static/media/backgroundh.jpg": "/my-little-garden/static/media/backgroundh.fedfdf12e289962d81af.jpg",
     "index.html": "/my-little-garden/index.html",
     "main.526d491a.css.map": "/my-little-garden/static/css/main.526d491a.css.map",
-    "main.9f3f9230.js.map": "/my-little-garden/static/js/main.9f3f9230.js.map"
+    "main.0f54caaf.js.map": "/my-little-garden/static/js/main.0f54caaf.js.map"
   },
   "entrypoints": [
     "static/css/main.526d491a.css",
-    "static/js/main.9f3f9230.js"
+    "static/js/main.0f54caaf.js"
   ]
 }
