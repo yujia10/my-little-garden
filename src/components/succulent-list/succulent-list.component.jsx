@@ -1,14 +1,14 @@
-import SucculentItem from '../succulent-item/succulent-item.component';
-import './succulent-list.style.scss'
+import SucculentItem from "../succulent-item/succulent-item.component";
+import "./succulent-list.style.scss";
 
-function SucculentList({items}) {
+function SucculentList({ succulents }) {
   return (
-    <div className='succulents-container'>
-      {items.map((item)=>{
-        return <SucculentItem key={item.id} item={item}/>
+    <div className="succulents-container">
+      {succulents.map((succulent) => {
+        return <SucculentItem key={succulent.id} succulent={succulent} />;
       })}
     </div>
-  )
+  );
 }
 
-export default SucculentList
+export default SucculentList;

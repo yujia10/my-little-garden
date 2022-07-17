@@ -27,7 +27,7 @@ function Succulents() {
         <div className="underline"></div>
       </div>
       <Categories categories={categories} filteredPlants={filteredPlants} />
-      <SucculentList items={plantItems} />
+      <SucculentList succulents={plantItems} />
     </main>
   );
 }

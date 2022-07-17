@@ -11,6 +11,11 @@
   border: 0.25rem solid var(--color-primary);
   border-radius: 4px;
   display: block;
+
+  &:hover{
+    transition: 500ms;
+    opacity: 0.7;
+  }
 }
 
 .item-info h4 {
