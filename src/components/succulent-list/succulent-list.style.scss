@@ -9,7 +9,8 @@
 }
 @media screen and (max-width: 640px) {
   .succulents-container{
-  width: 70vw;
+  width: 80vw;
+  gap: 2.5rem 1.5rem;
   grid-template-columns: repeat(2, 1fr);
   }
 }

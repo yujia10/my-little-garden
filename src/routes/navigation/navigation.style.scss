@@ -18,8 +18,10 @@ nav {
     transition: var(--transition);
     cursor: pointer;
 
-    &:hover {
-      transform: rotate(90deg);
+    @media (hover: hover) {
+      &:hover {
+        transform: rotate(90deg);
+      }
     }
   }
 

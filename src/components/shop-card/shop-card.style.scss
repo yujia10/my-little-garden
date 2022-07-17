@@ -42,3 +42,16 @@
     }
   }
 }
+
+@media  screen and (max-width:640px) {
+  .card-container {
+    img {
+      opacity: 0.8;
+    }
+
+    button {
+      opacity: 0.85;
+      display: block;
+    }
+  }
+}

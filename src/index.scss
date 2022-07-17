@@ -68,9 +68,11 @@ main{
   padding: 15px 10px;
   cursor: pointer;
 
-  &:hover {
-    background-color: var(--color-cta);
-    color:#ffffff;
+  @media (hover: hover) {
+    &:hover {
+      background-color: var(--color-cta);
+      color:#ffffff;
+    }
   }
 }
 
