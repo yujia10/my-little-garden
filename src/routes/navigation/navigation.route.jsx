@@ -59,7 +59,7 @@ function Navigation() {
         </div>
 
         <div className="social-icons">
-          <a href="#">
+          <a href="mailto:yujiagu1010@gmail.com" >
             <MdEmail />
           </a>
           <a href="#">
