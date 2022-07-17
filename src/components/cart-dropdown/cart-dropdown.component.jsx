@@ -18,6 +18,7 @@ function CartDropdown() {
   return (
     <div className="cart-dropdown-container">
       <div className="cart-items">
+      {cartItems.length === 0 && <p>Your cart is empty</p>}
       {cartItems.map((item)=>{
         return <CartItem key={item.id} cartItem={item}/>
       })}
