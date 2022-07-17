@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "./static/css/main.9643879b.css",
-    "main.js": "./static/js/main.0f54caaf.js",
-    "static/media/backgroundv.jpg": "./static/media/backgroundv.414de0efa88daf748826.jpg",
-    "static/media/backgroundh.jpg": "./static/media/backgroundh.fedfdf12e289962d81af.jpg",
-    "index.html": "./index.html",
-    "main.9643879b.css.map": "./static/css/main.9643879b.css.map",
-    "main.0f54caaf.js.map": "./static/js/main.0f54caaf.js.map"
+    "main.css": "/my-little-garden/static/css/main.526d491a.css",
+    "main.js": "/my-little-garden/static/js/main.f9446887.js",
+    "static/media/backgroundv.jpg": "/my-little-garden/static/media/backgroundv.414de0efa88daf748826.jpg",
+    "static/media/backgroundh.jpg": "/my-little-garden/static/media/backgroundh.fedfdf12e289962d81af.jpg",
+    "index.html": "/my-little-garden/index.html",
+    "main.526d491a.css.map": "/my-little-garden/static/css/main.526d491a.css.map",
+    "main.f9446887.js.map": "/my-little-garden/static/js/main.f9446887.js.map"
   },
   "entrypoints": [
-    "static/css/main.9643879b.css",
-    "static/js/main.0f54caaf.js"
+    "static/css/main.526d491a.css",
+    "static/js/main.f9446887.js"
   ]
 }
