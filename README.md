@@ -1,70 +1,42 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# My Succulents Garden
 
-## Available Scripts
+- an app for learning and purchasing succulents
+- resposive design for better UX
+- built with React Hooks, React-Router and SASS
 
-In the project directory, you can run:
 
-### `npm start`
+## Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+https://yujia10.github.io/my-little-garden/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Figma design file
 
-### `npm test`
+https://www.figma.com/file/wgjeINggOVrYLwRLIGgsC6/My-Succulents-Garden?node-id=0%3A1
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshots
 
-### `npm run build`
+- landing page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img width="193" alt="mobile home" src="https://user-images.githubusercontent.com/96090501/181180362-91533ab9-82c6-41e5-9929-8c44b90c06fb.png">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- responsive design for different screens
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img width="189" alt="succ" src="https://user-images.githubusercontent.com/96090501/181180905-fb3ca5f8-76df-419f-a28c-01dd41986b9d.png"> &nbsp; &nbsp; &nbsp; <img width="400" alt="desk succ" src="https://user-images.githubusercontent.com/96090501/181180873-0ce12613-b431-41ce-a6e3-2163e33753cf.png"> 
 
-### `npm run eject`
+- caring tips
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<img width="190" alt="caring" src="https://user-images.githubusercontent.com/96090501/181181605-440a281e-6764-4da9-a484-8c029285d75e.png">
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- details page
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<img width="191" alt="Screen Shot 2022-07-27 at 4 26 05 pm" src="https://user-images.githubusercontent.com/96090501/181181765-4b31e872-c4d4-4a07-92f8-37c22bf97d38.png">
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- shop
 
-## Learn More
+<img width="189" alt="shop" src="https://user-images.githubusercontent.com/96090501/181181967-097c78e9-ab36-4aa5-aab8-f05246f5ebee.png">
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- checkout
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img width="191" alt="checkout" src="https://user-images.githubusercontent.com/96090501/181182027-8bc8b80f-9624-443e-866e-4f054406297d.png">
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
